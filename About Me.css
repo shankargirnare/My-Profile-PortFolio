@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none; 
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    padding: 35px 12px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    margin: 50px;
+     font-size: 35px;
+     color: white;
+     font-weight: 600;
+     transform: 0.3s ease;
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    transform: scale(1.1);
+}
+span{
+    color: orangered;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+        color: orangered;
+        border-bottom: 3px solid orangered;
+}
+.contact{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered ;
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 8%;
+    gap: 10em;
+    background: black;
+}
+.about-img img{
+    position: relative;
+    height: 450px;
+    width: auto;
+    box-shadow: 0 0 25px orangered, 
+                0 0 50px orangered;
+    border-radius: 50%;
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 35px;
+}
+.about-content h3{
+    font-size: 55px;
+    color: white;
+}
+.about-content p{
+    color: white;
+    font-size: 20px;
+    max-width: 990px;
+}
+.btn-2{
+    padding:15px 28px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2 a{
+    margin-top: 70px;
+}
+.btn-2:hover{
+    background-color: white;
+    color: orangered;
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
